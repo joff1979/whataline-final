@@ -6,25 +6,70 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #E74694;
+  --ifm-color-primary-dark: #cb337c;
+  --ifm-color-primary-darker: #9f195a;
+  --ifm-color-primary-darkest: #7c043e;
+  --ifm-color-primary-light: #dc5b9a;
+  --ifm-color-primary-lighter: #f18dbe;
+  --ifm-color-primary-lightest: #f0a6c9;
   --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-font-family: 'ui-sans-serif', 'system-ui' ,-apple-system,BlinkMacSystemFont,Segoe UI
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+  --ifm-color-primary: #E74694;
+  --ifm-color-primary-dark: #cb337c;
+  --ifm-color-primary-darker: #9f195a;
+  --ifm-color-primary-darkest: #7c043e;
+  --ifm-color-primary-light: #dc5b9a;
+  --ifm-color-primary-lighter: #f18dbe;
+  --ifm-color-primary-lightest: #f0a6c9;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/* headerstyle */
+:root {
+  --ifm-navbar-height: 80px;
+}
+
+.navbar  {
+  border-bottom: #dc5b9a 2px solid;
+}
+
+.navbar__logo {
+  height: 50px;
+}
+
+.header-social {
+  height: 24px;
+  width: 24px;
+  margin-left: 25px;
+}
+
+.header-stage32-link {
+  background-image: url('/static/img/stage32.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.header-linkedin-link {
+  background-image: url('/static/img/linkedin.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 30px;
+  width: 30px;
+}
+
+.header-instagram-link {
+  background-image: url('/static/img/instagram.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+
+/* main pagehero */

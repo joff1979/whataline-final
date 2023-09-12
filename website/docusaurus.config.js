@@ -6,12 +6,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  title: 'What a line',
+  tagline: 'Welcome to Kats world',
+  favicon: 'img/writersketch.png',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://whataline.com/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -62,26 +62,32 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/writersketch.png',
       navbar: {
-        title: 'My Site',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'What a line',
           src: 'img/logo.svg',
+          height: 80,
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            href: 'https://www.stage32.com/profile/851138/scripts_screenplays',
             position: 'left',
-            label: 'Tutorial',
+            className: 'header-stage32-link header-social',
+            'aria-label': 'Stage 32 links',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
+            href: 'https://www.stage32.com/profile/851138/scripts_screenplays',
+            position: 'left',
+            className: 'header-linkedin-link  header-social',
+            'aria-label': 'LinkedIn links',
           },
+          {
+            href: 'https://www.stage32.com/profile/851138/scripts_screenplays',
+            position: 'left',
+            className: 'header-instagram-link  header-social',
+          }
+         
         ],
       },
       footer: {
