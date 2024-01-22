@@ -18,8 +18,8 @@ function HomepageHeader() {
             <img src={writersketch} alt="What a line" height="300"></img>
             </div>
           <div className="col col--6">
-          <p className="hero__subtitle">{siteConfig.tagline}</p>
-          <p className="hero__subtitle"><Intro></Intro></p>
+            <p className="heroTitle">{siteConfig.tagline}</p>
+            <p className="heroPara"><Intro></Intro></p>
           </div>
           </div> 
       </div>
