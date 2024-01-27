@@ -1,0 +1,1 @@
+Two clueless teens stranded at a festival 30 years in the past battle their inexperience and emotional hang-ups as they form pivotal relationships and seek a pathway home.

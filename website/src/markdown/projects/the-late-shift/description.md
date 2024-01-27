@@ -1,0 +1,1 @@
+An awkward threesome forces the restless trio to confront their doubts and insecurities as they pursue emotional fulfilment.

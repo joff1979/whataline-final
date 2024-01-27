@@ -1,0 +1,1 @@
+Trapped in a temporal loop following a fatal accident, a beleaguered florist makes the ultimate sacrifice to free herself and save her soulmate from repeated death.

@@ -1,0 +1,1 @@
+In a world where troublesome feelings can be erased, an embittered protestor seizes the opportunity of a power cut to try to dissuade a clinic's clients from having their procedure.
